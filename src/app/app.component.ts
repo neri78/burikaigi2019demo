@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { tweetData } from './data';
 
 
 @Component({
@@ -9,5 +8,5 @@ import { tweetData } from './data';
 })
 export class AppComponent  {
   name = 'Angular';
-  localData = tweetData;
+
 }
