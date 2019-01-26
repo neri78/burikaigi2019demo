@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { athletesData } from './data';
 
 
 @Component({
@@ -7,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  {
-  name = 'Angular';
-
+  name = 'StackBlitzでひらけるアプリだぜー';
+  localData = athletesData;
 }

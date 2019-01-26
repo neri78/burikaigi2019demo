@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { IgxNavbarModule} from 'igniteui-angular';
+import { IgxNavbarModule, IgxGridModule } from 'igniteui-angular';
 import 'hammerjs';
 import { AppComponent } from './app.component';
 
@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule, IgxNavbarModule,
+    BrowserModule, IgxNavbarModule, IgxGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
